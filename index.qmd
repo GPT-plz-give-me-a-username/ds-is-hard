@@ -1,0 +1,30 @@
+---
+title: "Data Science for Public Policy"
+subtitle: "Assignment 04"
+author: "Ruiyang Zhang - rz326"
+execute:
+  warning: false
+format:
+  html:
+    embed-resources: true
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+
+
+```{r}
+library(tidyverse)
+```
+
+
+
+```{r}
+storms %>% 
+  ggplot() +
+  geom_histogram(aes(x=pressure))
+```
+
+
