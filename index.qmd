@@ -24,7 +24,7 @@ library(tidyverse)
 ```{r}
 storms %>% 
   ggplot() +
-  geom_histogram(aes(x=pressure))
+  geom_density(aes(x=pressure))
 ```
 
 
